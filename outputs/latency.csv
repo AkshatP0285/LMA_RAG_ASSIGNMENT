@@ -1,0 +1,5 @@
+embedder,pipeline,stage 1 (ms),stage 2 (ms),retrieval total (ms),LLM per answer (ms),end to end (ms)
+bge-small,baseline (bi-encoder only),10.5,0.0,10.5,6813,6823
+bge-small,re-ranking (bi-encoder + cross-encoder),10.5,17.3,27.8,7724,7752
+embeddinggemma-2,baseline (bi-encoder only),56.9,0.0,56.9,6676,6733
+embeddinggemma-2,re-ranking (bi-encoder + cross-encoder),56.9,17.4,74.3,6937,7011
