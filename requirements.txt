@@ -1,0 +1,13 @@
+torch
+transformers
+sentence-transformers
+accelerate
+faiss-cpu
+pymupdf
+pandas
+numpy
+pillow
+torchvision
+jupyter
+nbconvert
+ipykernel
